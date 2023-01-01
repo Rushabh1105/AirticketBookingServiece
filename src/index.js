@@ -4,7 +4,7 @@ const sequelize = require("sequelize");
 
 const apiRoutes = require("./routes/index");
 const {PORT} = require("./config/server-config");
-const {db} = require("./models/index");
+const db = require("./models/index");
 
 const app = express();
 
